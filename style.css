@@ -61,12 +61,6 @@ right: 10%;
     padding-bottom: 45px;
 }
 
-@media (min-width:1919px) {
-    .conteiner__content {
-        justify-content: center;
-    }
-    
-}
 .conteiner__content {
     display: grid;
     grid-template-columns: repeat(12, 75px);
@@ -92,4 +86,15 @@ right: 10%;
     grid-column: 9/12;
     align-items: center;
     max-width: 100%;
+}
+
+
+
+
+
+@media (min-width:1919px) {
+    .conteiner__content {
+        justify-content: center;
+    }
+    
 }
